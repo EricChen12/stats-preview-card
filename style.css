@@ -23,13 +23,16 @@ body {
     height: 245px;
     background-size: cover;
     background-image: url(images/image-header-mobile.jpg);
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: multiply;
+    opacity: 0.8;
 }
 
-.overlay {
+/* .overlay {
     width: 100%;
     height: 100%;
     background: rgba(170, 92, 219, 0.705);
-}
+} */
 
 /* .container-img img {
     mix-blend-mode: hsl(277, 64%, 61%);
